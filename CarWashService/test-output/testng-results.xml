@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="19" passed="19">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="243710" started-at="2022-03-17T07:12:45Z" finished-at="2022-03-17T07:16:49Z">
+    <groups>
+    </groups>
+    <test name="Homepage" duration-ms="201857" started-at="2022-03-17T07:12:45Z" finished-at="2022-03-17T07:16:07Z">
+      <class name="com.justdial.testcases.HomepageTestCases">
+        <test-method status="PASS" signature="Browser()[pri:0, instance:com.justdial.testcases.HomepageTestCases@2d209079]" name="Browser" is-config="true" duration-ms="3427" started-at="2022-03-17T12:42:45Z" finished-at="2022-03-17T12:42:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser -->
+        <test-method status="PASS" signature="websiteTest()[pri:0, instance:com.justdial.testcases.HomepageTestCases@2d209079]" name="websiteTest" duration-ms="15" started-at="2022-03-17T12:42:49Z" finished-at="2022-03-17T12:42:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- websiteTest -->
+        <test-method status="PASS" signature="elementsTest()[pri:0, instance:com.justdial.testcases.HomepageTestCases@2d209079]" name="elementsTest" duration-ms="124" started-at="2022-03-17T12:42:49Z" finished-at="2022-03-17T12:42:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elementsTest -->
+        <test-method status="PASS" signature="loginPageTest()[pri:0, instance:com.justdial.testcases.HomepageTestCases@2d209079]" name="loginPageTest" duration-ms="118" started-at="2022-03-17T12:42:49Z" finished-at="2022-03-17T12:42:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTest -->
+        <test-method status="PASS" signature="locationTest()[pri:0, instance:com.justdial.testcases.HomepageTestCases@2d209079]" name="locationTest" duration-ms="3175" started-at="2022-03-17T12:42:49Z" finished-at="2022-03-17T12:42:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locationTest -->
+        <test-method status="PASS" signature="searchingTest()[pri:0, instance:com.justdial.testcases.HomepageTestCases@2d209079]" name="searchingTest" duration-ms="2149" started-at="2022-03-17T12:42:52Z" depends-on-methods="com.justdial.testcases.HomepageTestCases.locationTest" finished-at="2022-03-17T12:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchingTest -->
+        <test-method status="PASS" signature="resultPageTest()[pri:0, instance:com.justdial.testcases.HomepageTestCases@2d209079]" name="resultPageTest" duration-ms="29" started-at="2022-03-17T12:42:54Z" depends-on-methods="com.justdial.testcases.HomepageTestCases.searchingTest" finished-at="2022-03-17T12:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultPageTest -->
+        <test-method status="PASS" signature="bestdealsTest()[pri:0, instance:com.justdial.testcases.HomepageTestCases@2d209079]" name="bestdealsTest" duration-ms="3285" started-at="2022-03-17T12:42:54Z" depends-on-methods="com.justdial.testcases.HomepageTestCases.resultPageTest" finished-at="2022-03-17T12:42:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bestdealsTest -->
+        <test-method status="PASS" signature="ratingCheck()[pri:0, instance:com.justdial.testcases.HomepageTestCases@2d209079]" name="ratingCheck" duration-ms="63" started-at="2022-03-17T12:42:57Z" depends-on-methods="com.justdial.testcases.HomepageTestCases.bestdealsTest" finished-at="2022-03-17T12:42:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ratingCheck -->
+        <test-method status="PASS" signature="printData()[pri:0, instance:com.justdial.testcases.HomepageTestCases@2d209079]" name="printData" duration-ms="185094" started-at="2022-03-17T12:42:58Z" depends-on-methods="com.justdial.testcases.HomepageTestCases.ratingCheck" finished-at="2022-03-17T12:46:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printData -->
+        <test-method status="PASS" signature="terminate()[pri:0, instance:com.justdial.testcases.HomepageTestCases@2d209079]" name="terminate" is-config="true" duration-ms="4361" started-at="2022-03-17T12:46:03Z" finished-at="2022-03-17T12:46:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- com.justdial.testcases.HomepageTestCases -->
+    </test> <!-- Homepage -->
+    <test name="Freelisting" duration-ms="32639" started-at="2022-03-17T07:16:07Z" finished-at="2022-03-17T07:16:40Z">
+      <class name="com.justdial.testcases.FreelistingTestCases">
+        <test-method status="PASS" signature="browser()[pri:0, instance:com.justdial.testcases.FreelistingTestCases@506e6d5e]" name="browser" is-config="true" duration-ms="2872" started-at="2022-03-17T12:46:07Z" finished-at="2022-03-17T12:46:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:com.justdial.testcases.FreelistingTestCases@506e6d5e]" name="launch" duration-ms="12113" started-at="2022-03-17T12:46:10Z" finished-at="2022-03-17T12:46:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="allNullValues()[pri:0, instance:com.justdial.testcases.FreelistingTestCases@506e6d5e]" name="allNullValues" duration-ms="2481" started-at="2022-03-17T12:46:22Z" finished-at="2022-03-17T12:46:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allNullValues -->
+        <test-method status="PASS" signature="companyNullValue(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.justdial.testcases.FreelistingTestCases@506e6d5e]" name="companyNullValue" duration-ms="609" started-at="2022-03-17T12:46:25Z" data-provider="testData" finished-at="2022-03-17T12:46:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Best Car Wash Service]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tanmay]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Yemul]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9876443220]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[22447879]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- companyNullValue -->
+        <test-method status="PASS" signature="mobileNullValue(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.justdial.testcases.FreelistingTestCases@506e6d5e]" name="mobileNullValue" duration-ms="4041" started-at="2022-03-17T12:46:25Z" data-provider="testData" finished-at="2022-03-17T12:46:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Best Car Wash Service]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tanmay]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Yemul]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9876443220]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[22447879]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileNullValue -->
+        <test-method status="PASS" signature="cityNullvalue(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.justdial.testcases.FreelistingTestCases@506e6d5e]" name="cityNullvalue" duration-ms="4062" started-at="2022-03-17T12:46:30Z" data-provider="testData" finished-at="2022-03-17T12:46:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Best Car Wash Service]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tanmay]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Yemul]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9876443220]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[22447879]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cityNullvalue -->
+        <test-method status="PASS" signature="validDataTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.justdial.testcases.FreelistingTestCases@506e6d5e]" name="validDataTest" duration-ms="1844" started-at="2022-03-17T12:46:34Z" data-provider="testData" finished-at="2022-03-17T12:46:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Best Car Wash Service]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tanmay]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Yemul]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9876443220]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[22447879]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validDataTest -->
+        <test-method status="PASS" signature="terminate()[pri:0, instance:com.justdial.testcases.FreelistingTestCases@506e6d5e]" name="terminate" is-config="true" duration-ms="4196" started-at="2022-03-17T12:46:35Z" finished-at="2022-03-17T12:46:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- com.justdial.testcases.FreelistingTestCases -->
+    </test> <!-- Freelisting -->
+    <test name="Fitness" duration-ms="9192" started-at="2022-03-17T07:16:40Z" finished-at="2022-03-17T07:16:49Z">
+      <class name="com.justdial.testcases.FitnessTestCases">
+        <test-method status="PASS" signature="browser()[pri:0, instance:com.justdial.testcases.FitnessTestCases@7f690630]" name="browser" is-config="true" duration-ms="2580" started-at="2022-03-17T12:46:40Z" finished-at="2022-03-17T12:46:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="fitness()[pri:0, instance:com.justdial.testcases.FitnessTestCases@7f690630]" name="fitness" duration-ms="1597" started-at="2022-03-17T12:46:42Z" finished-at="2022-03-17T12:46:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fitness -->
+        <test-method status="PASS" signature="fitnessMenu()[pri:0, instance:com.justdial.testcases.FitnessTestCases@7f690630]" name="fitnessMenu" duration-ms="38" started-at="2022-03-17T12:46:44Z" finished-at="2022-03-17T12:46:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fitnessMenu -->
+        <test-method status="PASS" signature="gym()[pri:0, instance:com.justdial.testcases.FitnessTestCases@7f690630]" name="gym" duration-ms="713" started-at="2022-03-17T12:46:44Z" finished-at="2022-03-17T12:46:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gym -->
+        <test-method status="PASS" signature="gymMenu()[pri:0, instance:com.justdial.testcases.FitnessTestCases@7f690630]" name="gymMenu" duration-ms="56" started-at="2022-03-17T12:46:45Z" finished-at="2022-03-17T12:46:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gymMenu -->
+        <test-method status="PASS" signature="terminate()[pri:0, instance:com.justdial.testcases.FitnessTestCases@7f690630]" name="terminate" is-config="true" duration-ms="4205" started-at="2022-03-17T12:46:45Z" finished-at="2022-03-17T12:46:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- com.justdial.testcases.FitnessTestCases -->
+    </test> <!-- Fitness -->
+  </suite> <!-- Suite -->
+</testng-results>
